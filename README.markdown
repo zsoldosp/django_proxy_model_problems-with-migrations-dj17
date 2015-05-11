@@ -18,3 +18,7 @@ Having read both
 * https://docs.djangoproject.com/en/1.8/topics/db/models/#proxy-models
 
 I can't figure out what I should be doing to resolve this problem (`manage.py makemigrations` reports `No changes detected`)
+
+The problem can be reproduced by running `tox -e py27-django17`
+
+This can be reproduced with Django 1.7 &amp; 1.8, but works fine with 1.4
